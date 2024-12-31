@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 100px; 
+    justify-content: center;
+    height: auto;
+}
+
+.container2 .picture{
+    background-color: #555659;
+    padding: 0 50px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.container2 .detail{
+    background-color: #39d1e6;
+    width: 70%;
+    border-radius: 0px 20px 20px 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.container2 .picture h1{
+    color: white;
+    padding-top: 20px;
+
+}
+
+.container2 .picture p{
+    color: white;
+    padding-top: 20px;
+    max-width: 300px;
+}
+
+.container2 .detail {
+    padding: 20px;
+}
+
+.container2 .detail h1{
+    color: white;
+    text-align: flex-start;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 5rem;
+}
+.container2 .detail h2{
+    color: white;
+    text-align: flex-start;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 2rem;
+}
+
+.container2 .detail p{
+    color: rgb(255, 255, 255);
+    text-align: flex-start;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+
+.profile-img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px;
+}
